@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>hello world</h1>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <script>
+        var arr=new Array("sunil","chandan","banti");
+        /*document.getElementById("demo").innerHTML=arr;*/
+        document.getElementById("demo").innerHTML=arr;
+        arr.pop();
+        document.getElementById("demo").innerHTML=arr;
+        arr.push("sumi");
+        document.getElementById("demo").innerHTML=arr.join('***');
+        arr.shift();
+        document.getElementById("demo").innerHTML=arr;
+        arr.push("sunita");
+        document.getElementById("demo").innerHTML=arr;
+        arr[0]=("deba");
+        document.getElementById("demo").innerHTML=arr;
+        arr.unshift("satyam");
+        document.getElementById("demo").innerHTML=arr;
+        delete arr[3];
+        document.getElementById("demo").innerHTML=arr;
+       var name=new Array("biswa","sajid","durga","ashu");
+        var arr1=name.concat(arr);
+        document.getElementById("demo1").innerHTML=arr1;
+
+        
+
+    </script>
+</body>
+</html>
